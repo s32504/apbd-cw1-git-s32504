@@ -4,7 +4,8 @@ Console.WriteLine("Jakim");
 Console.WriteLine("cudem");
 Console.WriteLine("mnie jeszcze");
 Console.WriteLine("nie wyrzucili"); //yeah
-
+Console.ReadLine(); //zmiana w main
+//Zmina w max
 static double GetMax(int[] numbers)
 
 {
