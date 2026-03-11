@@ -5,7 +5,7 @@ Console.WriteLine("cudem");
 Console.WriteLine("mnie jeszcze");
 Console.WriteLine("nie wyrzucili"); //yeah
 
-static double GetAverage(int[] numbers)
+static double GetMax(int[] numbers)
 
 {
     double sum = 0;
@@ -16,10 +16,13 @@ static double GetAverage(int[] numbers)
 
     for (int i = numbers.Length - 1; i >= 0; i--)
     {
-        sum += numbers[i];
+        if (numbers[i] > sum)
+        {
+            sum += numbers[i];
+        }
 
     }
-    return sum / numbers.Length;
+    return sum;
 }
 
 
