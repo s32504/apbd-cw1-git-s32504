@@ -3,7 +3,9 @@
 Console.WriteLine("Jakim");
 Console.WriteLine("cudem");
 Console.WriteLine("mnie jeszcze");
-Console.WriteLine("nie wyrzucili");
+Console.WriteLine("nie wyrzucili"); //yeah
+
+
 
 
 
