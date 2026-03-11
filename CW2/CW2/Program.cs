@@ -25,5 +25,21 @@ static double GetMax(int[] numbers)
     return sum;
 }
 
+static double GetAverage(int[] numbers)
 
+{
+    double sum = 0;
+    if (numbers.Length == 0)
+    {
+        return 0;
+    }
+
+    for (int i = numbers.Length - 1; i >= 0; i--)
+    {
+        sum += numbers[i];
+
+    }
+
+    return sum / numbers.Length;
+}
 
