@@ -43,3 +43,12 @@ static double GetAverage(int[] numbers)
     return sum / numbers.Length;
 }
 
+public static int CalculateMin(int[] values)
+{
+    if (values == null || values.Length == 0)
+        throw new ArgumentException("Array cannot be null or empty.");
+
+    int smallest = values[0];
+
+    return smallest;
+}
