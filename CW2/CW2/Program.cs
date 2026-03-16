@@ -56,5 +56,6 @@ public static int CalculateMin(int[] values)
             smallest = num;
     }
     //Komentarz dla rebasa i z jakiegoś powodu moje prywatne konto połączyło się z Riderem???
+    //testing?
     return smallest;
 }
