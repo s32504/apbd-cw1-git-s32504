@@ -49,6 +49,12 @@ public static int CalculateMin(int[] values)
         throw new ArgumentException("Array cannot be null or empty.");
 
     int smallest = values[0];
-
+    
+    foreach (int num in values)
+    {
+        if (num < smallest)
+            smallest = num;
+    }
+    
     return smallest;
 }
