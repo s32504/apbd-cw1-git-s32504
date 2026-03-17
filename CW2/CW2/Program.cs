@@ -43,7 +43,7 @@ static double GetAverage(int[] numbers)
     return sum / numbers.Length;
 }
 
-static int CalculateMinTryingToCauseEvenMoreconflict(int[] values)
+static int CalculateMinAddingConflict(int[] values)
 {
     if (values == null || values.Length == 0)
         throw new ArgumentException("Array cannot be null or empty.");
