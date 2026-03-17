@@ -59,5 +59,6 @@ static int CalculateMinAddingConflict(int[] values)
     //testing?
     //Dobra, a teraz?
     //Test?
+    //Dobra, jeśli teraz nadal nie uznaje mojego konta szkolnego tylko próbuje nadal wysyłać przez stare prywatne to ja się poddaję.
     return smallest;
 }
